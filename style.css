@@ -6,6 +6,20 @@
 	list-style: none;
 }
 
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #2E2E2E;
+    border: 1px solid white;
+    border-radius: 5rem;
+}
+
 body{
 	padding: 2px;
 }
@@ -14,16 +28,17 @@ body{
 	display: flex;
 	justify-content: space-between;
 	color: white;
-	background-color: #0b0b0c;
+	background-color: #2e2e2e;
 }
 
 .logo{
 	font-size: 3rem;
-	padding: 5px;
+	padding: 1rem;
 }
 
 .navbar{
 	display: flex;
+	padding: 2rem;
 }
 
 .navlink{
@@ -47,7 +62,7 @@ body{
 .container{
 	
 	margin: auto;
-	background-color: #3e3e3e;
+	background-color: #2e2e2e;
 }
 
 .content{
@@ -56,21 +71,31 @@ body{
 	justify-content: space-between;
 }
 
-.content>h2{
-	color: whitesmoke;
-	font-size: 3rem;
-	margin: auto;
-}
-
 .content>span{
 	font-size: 2rem;
 	color: whitesmoke;
 	padding: 2rem;
-	margin: auto;
+	margin: 2rem 2rem 2rem 8rem;
 }
 
-.content>img{
+.content>span>p{
+	font-size: 4rem;
+}
+
+.btn{
+	border-radius: 2px;
+	border-style: hidden;
+	border: 1px solid black;
+	font-size: 1rem;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 3px;
+	color: black;
+
+}
+
+.img img{
 	border-radius: 50%;
 	width: 15rem;
 	padding: 2rem;
+	margin: 2rem 7rem 2rem 2rem;
 }
