@@ -62,24 +62,44 @@ body{
 .container{
 	
 	margin: auto;
-	background-color: #2e2e2e;
+	background-color: #eff6f8;
 }
 
 .content{
-	border: 2px solid dimgray;
 	display: flex;
 	justify-content: space-between;
 }
 
 .content>span{
-	font-size: 2rem;
-	color: whitesmoke;
+	font-size: 5rem;
+	text-transform: uppercase;
+	color: rgb(20, 18, 18);
 	padding: 2rem;
 	margin: 2rem 2rem 2rem 8rem;
+	font-weight: 100;
+	background-image: -webkit-linear-gradient(92deg,#f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 5s infinite linear;
 }
+
+@-webkit-keyframes hue {
+	from {
+	  -webkit-filter: hue-rotate(0deg);
+	}
+	to {
+	  -webkit-filter: hue-rotate(-360deg);
+	}
+  }
 
 .content>span>p{
 	font-size: 4rem;
+}
+
+
+.content>span>pre{
+	font-size: 1.5rem;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .btn{
@@ -87,6 +107,7 @@ body{
 	border-style: hidden;
 	border: 1px solid black;
 	font-size: 1rem;
+	background-color: #ffffff;
 	font-family: 'Times New Roman', Times, serif;
 	padding: 3px;
 	color: black;
@@ -96,6 +117,18 @@ body{
 .img img{
 	border-radius: 50%;
 	width: 15rem;
+	border: 1px solid black;
 	padding: 2rem;
-	margin: 2rem 7rem 2rem 2rem;
+	margin: 2rem 18rem 2rem 2rem;
 }
+
+.content>h1{
+	text-align: center;
+	margin: auto;
+}
+
+.content>p{
+	font-size: 2rem;
+	color: rgb(20, 18, 18);
+	padding: 2rem;
+	margin: 2rem 2rem 2rem 8rem;
