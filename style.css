@@ -70,13 +70,13 @@ body{
 	justify-content: space-between;
 }
 
-.content>span{
+.content>span>p{
 	font-size: 5rem;
 	font-family: 'Times New Roman', Times, serif;
 	text-transform: uppercase;
 	color: rgb(20, 18, 18);
 	padding: 2rem;
-	margin: 2rem 2rem 2rem 8rem;
+	margin: 2rem 2rem 0rem 8rem;
 	font-weight: 1000;
 	background-image: -webkit-linear-gradient(92deg,#f35626, #feab3a);
 	-webkit-background-clip: text;
@@ -103,16 +103,23 @@ body{
 	font-family: 'Times New Roman', Times, serif;
 }
 
-.btn{
+.something .btn{
 	border-radius: 2px;
 	border-style: hidden;
 	border: 1px solid black;
 	font-size: 1rem;
-	background-color: #ffffff;
+	background-color: #06fee9;
 	font-family: 'Times New Roman', Times, serif;
 	padding: 3px;
 	color: black;
+	margin-left: 10rem;
 
+}
+
+.something>pre{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1rem;
+	margin: 0 0 0 10rem;
 }
 
 .img img{
@@ -126,7 +133,6 @@ body{
 	text-align: center;
 	margin: auto;
 }
-
 .abt-content>p{
 	font-size: 2rem;
 	color: rgb(20, 18, 18);
@@ -145,9 +151,39 @@ body{
 }
 
 .pro-list{
-	border: 2px;
-	border: 1px solid #b8fa02;
+	border: 1px solid #5bffef;
 	margin: .5rem;
 	width: 20rem;
 	padding: 1rem;
 }
+
+
+.svg {
+	display: inline-block;
+	
+	z-index: 1;
+}
+
+/* Background gradient */
+/* .pro-content {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 50vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+
+
+/* hamburger test */
