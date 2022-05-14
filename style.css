@@ -179,18 +179,20 @@ html::-webkit-scrollbar-thumb{
 }
 
 .todo-con{
-	display: flex;
+	/* display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	background-image: linear-gradient(#F4F4F4,60%,black );
+	justify-content: space-between; */
+	background-image: linear-gradient(#eff6f8,60%,black );
 }
 .todo{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: ;
+	margin: 2rem;
 }
 .tdlist{
 	font-size: 1.5rem;
+	margin: 1rem;
 }
 
 /* hamburger test */
