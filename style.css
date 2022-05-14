@@ -64,7 +64,7 @@ html::-webkit-scrollbar-thumb{
 .content{
 	display: flex;
 	justify-content: space-between;
-	background-image: linear-gradient(to bottom, #22313F, #F4F4F4);
+	background-image: linear-gradient(to bottom, #22313F,50%, #ececec);
 }
 
 .content>span>p{
@@ -113,7 +113,7 @@ html::-webkit-scrollbar-thumb{
 
 }
 
-.something>pre{
+.home-cont{
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 2rem;
 	margin: 0 0 0 10rem;
@@ -129,9 +129,10 @@ html::-webkit-scrollbar-thumb{
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	background: linear-gradient(-30deg,  #0010c4, #07cbf7, #0d3f4d, #7fc61c);
+	background-image: linear-gradient( #F4F4F4,60%, black);
+	/* background: linear-gradient(-30deg,  #0010c4, #07cbf7, #0d3f4d, #7fc61c);
 	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
+	animation: gradient 20s ease infinite; */
 }
 
 
