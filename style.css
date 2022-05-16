@@ -56,9 +56,14 @@ html::-webkit-scrollbar-thumb{
 }
 
 .container{
-	
 	margin: auto;
 	background-color: #eff6f8;
+}
+.heading{
+	background: -webkit-linear-gradient(#fe044b, #031bf2);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
 }
 
 .content{
@@ -106,7 +111,7 @@ html::-webkit-scrollbar-thumb{
 	border-style: hidden;
 	border: 1px solid black;
 	font-size: 1rem;
-	background-color: #00699e;
+	background-color: #43586c;
 	font-family: 'Times New Roman', Times, serif;
 	padding: 3px;
 	color: rgb(255, 255, 255);
@@ -188,16 +193,14 @@ span>.home-cont{
 	font-size: 1.3rem;
 }
 
-.todo-con{
+.contact{
 	/* display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between; */
-	background-image: linear-gradient(#eff6f8,60%,black );
+	background-image: linear-gradient(#eff6f8,40%,black );
 }
-.todo{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: ;
+.con-item{
+	display: grid;
 	margin: 2rem 0 0 2rem;
 }
 .tdlist{
@@ -218,9 +221,10 @@ span>.home-cont{
 	color: blue;
 	background: transparent;
 	border: none;
+	cursor: pointer;
 }
 
-footer{
+.footer{
 	background: black;
 	color: #ececec;
 }
