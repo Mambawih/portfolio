@@ -102,21 +102,23 @@ html::-webkit-scrollbar-thumb{
 
 .something .btn{
 	border-radius: 2px;
+	width: 5rem;
 	border-style: hidden;
 	border: 1px solid black;
 	font-size: 1rem;
-	background-color: #dbcdd9;
+	background-color: #00699e;
 	font-family: 'Times New Roman', Times, serif;
 	padding: 3px;
-	color: black;
+	color: rgb(255, 255, 255);
 	margin-left: 10rem;
 
 }
 
-.home-cont{
+span>.home-cont{
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 2rem;
-	margin: 0 0 0 10rem;
+	margin: 0 0 0 9rem;
+	padding: 1rem;
 }
 
 .img img{
@@ -164,18 +166,26 @@ html::-webkit-scrollbar-thumb{
 	padding: 0 0 0 2rem;
 
 }
+.projects>h1, .projects>.pro-content{
+	padding: 0 0 0 50%;
+}
 
 .pro-content{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: stretch;
 }
 
+
 .pro-list{
-	border: 1px solid #5bffef;
+	/* border: 1px solid #5bffef; */
 	margin: .5rem;
-	width: 20rem;
-	padding: 1rem;
+	width: 30rem;
+}
+.pro-list>h3{
+	font-size: 1.4rem;
+}
+.pro-item{
+	font-size: 1.3rem;
 }
 
 .todo-con{
@@ -188,11 +198,31 @@ html::-webkit-scrollbar-thumb{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: ;
-	margin: 2rem;
+	margin: 2rem 0 0 2rem;
 }
 .tdlist{
 	font-size: 1.5rem;
 	margin: 1rem;
+}
+
+/* Hide read more portion */
+#more{
+	display: none;
+}
+/* Hide read more portion */
+#more1{
+	display: none;
+}
+
+.readMoreBtn{
+	color: blue;
+	background: transparent;
+	border: none;
+}
+
+footer{
+	background: black;
+	color: #ececec;
 }
 
 /* hamburger test */

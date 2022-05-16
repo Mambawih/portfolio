@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" href="img/avatar.jpg">
         <title>Portfolio</title>
+        
     </head>
     <body>
         <header id="home" class="header">
@@ -24,9 +25,9 @@
                 <span><p>Name<br>
                     designation<br></p>
                 <span class="something">
-                    <input type="button" value="contact" class="btn">
-                <pre class="home-cont">Lorem ipsum sit dolar imet ipsum sit dolar</pre>
-                </span>        
+                    <input type="button" value="contact" class="btn" onclick="button()">
+                </span>
+                <span><p class="home-cont">Lorem ipsum sit dolar imet ipsum sit dolar</p></span>
                 </span>
                 <div class="img"><img alt="Profile photo" src="img/avatar.jpg"></div>
             </div>
@@ -52,33 +53,22 @@
             <div class="pro-content">
                 <li class="pro-list">
                     <h3>Project 1</h3><hr>
-                    <span class="pro-item">Lorem ipsum sit dolar imet ipsum sit dolar imet ipsum sit
-                        dolar imet ipsum sit dolar imet ipsum sit dolar imet ipsum 
-                        sit dolar imet ipsum sit dolar imet ipsum sit dolar imet</span>
+                    <span class="pro-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel
+                            <span id="dots">...</span>
+                            <span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                            <button onclick="readMore1()" id="myBtn" class="readMoreBtn">Read more...</button>
+                            <!-- <a onclick="readMore()" id="myBtn" href="javascript:readMore()">Read more...</a>  -->
+                    </span>
                 </li>
                 <li class="pro-list">
                     <h3>Project 2</h3><hr>
-                    <span class="pro-item">Lorem ipsum sit dolar imet ipsum sit dolar imet ipsum sit
-                        dolar imet ipsum sit dolar imet ipsum sit dolar imet ipsum 
-                        sit dolar imet ipsum sit dolar imet ipsum sit dolar imet</span>
-                </li>
-                <li class="pro-list">
-                    <h3>Project 3</h3><hr>
-                    <span class="pro-item">Lorem ipsum sit dolar imet ipsum sit dolar imet ipsum sit
-                        dolar imet ipsum sit dolar imet ipsum sit dolar imet ipsum 
-                        sit dolar imet ipsum sit dolar imet ipsum sit dolar imet</span>
-                </li>
-                <li class="pro-list">
-                    <h3>Project 4</h3><hr>
-                    <span class="pro-item">Lorem ipsum sit dolar imet ipsum sit dolar imet ipsum sit
-                        dolar imet ipsum sit dolar imet ipsum sit dolar imet ipsum 
-                        sit dolar imet ipsum sit dolar imet ipsum sit dolar imet</span>
-                </li>
-                <li class="pro-list">
-                    <h3>Project 5</h3><hr>
-                    <span class="pro-item">Lorem ipsum sit dolar imet ipsum sit dolar imet ipsum sit
-                        dolar imet ipsum sit dolar imet ipsum sit dolar imet ipsum 
-                        sit dolar imet ipsum sit dolar imet ipsum sit dolar imet</span>
+                    <span class="pro-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel
+                            <span id="dots1">...</span>
+                            <span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                        <button onclick="readMore2()" id="myBtn1" class="readMoreBtn">Read more...</button>
+                    </span>
                 </li>
                 
             </div>
@@ -102,5 +92,11 @@
                 </div>
             </div>
         </section>
+        <footer>
+            <div>
+                Footer
+            </div>
+        </footer>
     </body>
+    <script type="text/javascript" src="mains.js"></script>
 </html>
