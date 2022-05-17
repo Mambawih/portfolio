@@ -288,3 +288,47 @@ span>.home-cont{
 	background: black;
 }
 
+
+.header-mini{
+	display: none;
+}
+
+@media (max-width:450px) {
+	.header-mini{
+		display: block;
+	}
+	.header{
+		display: none;
+	}
+
+	#menuToggle{
+		display: block;
+		position: relative;
+		top: 50px;
+		left: 50px;
+		z-index: 1;
+		-webkit-user-select: none;
+		user-select: none;
+	}
+
+	#menuToggle a{
+		text-decoration: none;
+		color: #eff6f8;
+		transition: color 0.3s ease;
+	}
+	#menuToggle a:hover{
+		color: tomato;
+	}
+	#menuToggle input{
+		display: block;
+		width: 40px;
+		height: 32x;
+		position: absolute;
+		top: -7px;
+		left: -5px;
+		cursor: pointer;
+		opacity: 0;
+		z-index: 2;
+		-webkit-touch-callout: none;
+	}
+}
