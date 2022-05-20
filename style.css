@@ -242,6 +242,11 @@ span>.home-cont{
 	padding: 0 0 0 1rem;
 	border: 1px solid black;
 }
+.con-submit{
+	width: 200%;
+	margin: 1rem .5rem 0 .5rem ;
+	padding: .4rem;
+}
 .con-label{
 	color: #eff6f8;
 	padding: 0 0 0 1rem;
@@ -288,17 +293,19 @@ span>.home-cont{
 	background: black;
 }
 
-
-.header-mini{
+.hamb{
 	display: none;
 }
 
+
 @media (max-width:450px) {
-	.header-mini{
-		display: block;
-	}
-	.header{
+
+	.navbar{
 		display: none;
+	}
+
+	.hamb{
+		display: block;
 	}
 
 	#menuToggle{

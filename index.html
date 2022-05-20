@@ -13,14 +13,20 @@
     <body>
         <header id="home" class="header">
             <h2 class="logo">logo</h2>
-            <nav class="navbar">
-                <li class="navlink"><a href="#home">Home</a></li>
-                <li class="navlink"><a href="#about">about</a></li>
-                <li class="navlink"><a href="#projects">projects</a></li>
-                <li class="navlink"><a href="#contact">Contact</a></li>
-            </nav>
+            <div id="menuToggle">
+                <input class="hamb" type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <nav class="navbar">
+                    <li class="navlink"><a href="#home">Home</a></li>
+                    <li class="navlink"><a href="#about">about</a></li>
+                    <li class="navlink"><a href="#projects">projects</a></li>
+                    <li class="navlink"><a href="#contact">Contact</a></li>
+                </nav>
+            </div>
         </header>
-        <section class="container header-mini">
+        <!-- <section class="container header-mini">
             <nav role="navigation">
                 <div id="menuToggle">
                     <input type="checkbox">
@@ -35,7 +41,7 @@
                     </ul>
                 </div>
             </nav>
-        </section>
+        </section> -->
 
         <section class="container">
             <div class="content">
@@ -75,7 +81,6 @@
                             <span id="dots">...</span>
                             <span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
                             <button onclick="readMore1()" id="myBtn" class="readMoreBtn">Read more...</button>
-                            <!-- <a onclick="readMore()" id="myBtn" href="javascript:readMore()">Read more...</a>  -->
                     </span>
                 </li>
                 <li class="pro-list">
@@ -116,6 +121,7 @@
                         <input class="con-input" type="text" placeholder="subject"><br>
                         <label class="con-label" for="message">message</label><br>
                         <input class="con-input" type="text" max-width="400" placeholder="Message"><br>
+                        <input class="con-submit" type="submit" value="Submit">
                     </form>
                 </div>
             </div>
